@@ -1,5 +1,6 @@
 require "aws-sdk"
 require "dotenv"
+require "reduce"
 Dotenv.load
 
 def local_dir; './_site'; end
